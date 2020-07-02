@@ -1,0 +1,114 @@
+{
+  "eventArray": [
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2013-05-01T20:33:00.000",
+      "show": true,
+      "dateAdded": "2018-06-10T21:33:00.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 252,
+      "name": "Mooka Born"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2010-04-14T23:16:00.000",
+      "show": true,
+      "dateAdded": "2018-06-10T21:33:00.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 252,
+      "name": "Connor"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-12-15T01:00:00.000",
+      "show": true,
+      "dateAdded": "2018-12-26T02:23:09.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 240,
+      "name": "TSO 2019"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2011-10-21T19:00:00.000",
+      "show": true,
+      "dateAdded": "2018-06-10T21:33:00.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 252,
+      "name": "Last Mt. Dew"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-05-19T16:45:11.000",
+      "show": true,
+      "dateAdded": "2019-05-19T16:45:11.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 248,
+      "name": "last soda ... ever"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-08-12T10:00:00.000",
+      "show": true,
+      "dateAdded": "2019-08-22T18:30:22.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 28,
+      "name": "joined CrossFit"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-02-25T14:00:00.000",
+      "show": true,
+      "dateAdded": "2019-02-14T18:30:03.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 8,
+      "name": "Silversphere"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-02-15T23:00:00.000",
+      "show": true,
+      "dateAdded": "2019-08-10T16:10:44.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 8,
+      "name": "Amber"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-04-08T16:59:00.000",
+      "show": true,
+      "dateAdded": "2019-02-14T00:01:36.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 16,
+      "name": "Full rings"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-09-09T14:00:00.000",
+      "show": true,
+      "dateAdded": "2019-08-19T15:30:10.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 224,
+      "name": "tsotix"
+    },
+    {
+      "longitude": -122.03065599999999,
+      "startDate": "2019-09-08T03:30:00.000",
+      "show": true,
+      "dateAdded": "2019-09-08T19:36:32.000",
+      "latitude": 37.331685999999998,
+      "finishDate": "Open Ended",
+      "options": 252,
+      "name": "Last Tea"
+    }
+  ]
+}

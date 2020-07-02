@@ -1,4 +1,3 @@
-
 import 'package:flutter/foundation.dart' as Foundation;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -36,7 +35,7 @@ class AppWidget extends StatelessWidget {
   ModeTheme _modeTheme(BuildContext context) {
     return ModeTheme(
       themeDataFunction: (brightness) {
-        textColorDarkMode[TextKeys.caption] = Colors.yellowAccent;
+        textColorDarkMode[TextKeys.caption] = Colors.black87;
         ModeDefiniation.buttonModeColor = ModeColor(
           light: Colors.lightBlueAccent,
           dark: Colors.blueGrey,

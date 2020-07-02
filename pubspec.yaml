@@ -14,13 +14,22 @@ dependencies:
   cupertino_icons: ^0.1.3
   enum_to_string: ^1.0.9
   equatable: ^1.1.1 # Needed for flutter_bloc
-  flutter_bloc: ^4.0.0 # Widges to implement BLoC pattern
+  flutter_bloc: ^5.0.0 # Widges to implement BLoC pattern
   flutter_localizations: # Flutter SDK for internalization
     sdk: flutter
   flutter_modular: ^1.2.7+1 # Smart project structure with dependency injection and route management
+  date_time_intervals:
+    git:
+      url: https://github.com/GitHubStuff/date_time_intervals.git
+  date_time_popover:
+    git:
+      url: https://github.com/GitHubStuff/date_time_popover.git
   mode_theme:
     git:
       url: https://github.com/GitHubStuff/mode_theme.git
+  network_api:
+    git:
+      url: https://github.com/GitHubStuff/network_api.git
   tracers:
     git:
       url: https://github.com/GitHubStuff/tracers.git
@@ -32,4 +41,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - data/
     - languages/en.json

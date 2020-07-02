@@ -1,0 +1,13 @@
+{
+  "title": "Flipper",
+  "startTime": "2020-07-01T12:00:00",
+  "endTime": "",
+  "elements": [
+    "years",
+    "months",
+    "days",
+    "hours",
+    "minutes",
+    "seconds"
+  ]
+}
