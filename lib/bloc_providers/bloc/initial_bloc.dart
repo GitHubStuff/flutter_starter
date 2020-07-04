@@ -7,8 +7,9 @@ part 'initial_event.dart';
 part 'initial_state.dart';
 
 class InitialBloc extends Bloc<InitialEvent, InitialState> {
-  @override
-  InitialState get initialState => InitialInitial();
+  InitialBloc(InitialState initialState) : super(initialState);
+
+  
 
   @override
   Stream<InitialState> mapEventToState(

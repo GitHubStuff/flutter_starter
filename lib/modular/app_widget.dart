@@ -1,9 +1,8 @@
-
 import 'package:flutter/foundation.dart' as Foundation;
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mode_theme/mode_theme.dart';
 
 import 'logging_bloc_delegate.dart';
@@ -16,7 +15,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (!Foundation.kReleaseMode) {
-      BlocSupervisor.delegate = LoggingBlocDelegate();
+      Bloc.observer = LoggingBlocObserver();
     }
     return _blocProviders(context);
   }

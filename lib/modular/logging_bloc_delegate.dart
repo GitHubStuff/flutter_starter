@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:tracers/tracers.dart' as Log;
 
-class LoggingBlocDelegate extends BlocDelegate {
+class LoggingBlocObserver extends BlocObserver {
   @override
   void onEvent(Bloc bloc, Object event) {
     super.onEvent(bloc, event);
