@@ -1,6 +1,6 @@
-# elapser
+# Flutter starting template
 
-A Flutter baseline project
+A flutter project so much better than default "Counter" projects of 'flutter create <i><b>project_name</b></i>
 
 ## Getting Started
 
@@ -17,6 +17,38 @@ Each BLoC should have BLoC, Event, and State class. <i>EX: initial_event.dart, i
 
 FlavorValues in <i>flavor_config.dart</i> is modified to include all values that a unique to a flavor (eg URL's, constants,...) and is created by each <i>main_*.dart</i> file, to be available to throughout the project.
 <b>NOTE:</b> <i>launch.json</i> contains the required launch information for each flavor.
+<b>Template of <i>launch.json</i>:</b>
+<pre>
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Device",
+      "request": "launch",
+      "program": "lib/main/main_device.dart",
+      "type": "dart"
+    },
+    {
+      "name": "Emulator",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main/main_emulator.dart"
+    },
+    {
+      "name": "Release",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main/main_release.dart"
+    },
+    {
+      "name": "Test",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main/main_test.dart"
+    },
+  ]
+}
+</pre>
 
 ### Modules
 
